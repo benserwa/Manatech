@@ -1,0 +1,16 @@
+[
+{
+  "modid": "manatech",
+  "name": "Manatech",
+  "description": "A magic technology hybrid mod inspired by Final Fantasy VI.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EnemyViolent"],
+  "credits": "TheXFactor117 for providing an excellent tutorial.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
