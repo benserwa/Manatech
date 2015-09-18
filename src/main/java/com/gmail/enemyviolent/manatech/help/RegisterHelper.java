@@ -28,5 +28,6 @@ public class RegisterHelper {
 		Item item = Item.getItemFromBlock(block);
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
 	}
+	
 
 }

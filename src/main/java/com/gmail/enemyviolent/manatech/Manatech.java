@@ -14,6 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 //Import mod identification variables from Reference class
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
+
 public class Manatech {
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMON_PROXY)
@@ -23,20 +24,20 @@ public class Manatech {
 	public static Manatech instance;
 	
 	@Mod.EventHandler
-	public void preInit(FMLPreInitializationEvent event)
+	public void preInit(FMLPreInitializationEvent evt)
 	{
 		ModBlocks.registerBlocks();
 		ModItems.registerItems();
 	}
 
 	@Mod.EventHandler
-	public void init(FMLInitializationEvent event)
+	public void init(FMLInitializationEvent evt)
 	{
 		proxy.registerRenderers();
 	}
 
 	@Mod.EventHandler
-	public void postInit(FMLPostInitializationEvent event)
+	public void postInit(FMLPostInitializationEvent evt)
 	{
 
 	}
