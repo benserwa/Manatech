@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "pa0.0.12"
+version = "pa0.0.15"
 group= "com.gmail.enemyviolent.manatech" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "manatech"
 

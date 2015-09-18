@@ -13,7 +13,6 @@ public class ModItems {
 	{
 		RegisterHelper.registerItem(manatechwrench);
 		RegisterHelper.registerItemRenderer(manatechwrench);
-
 	}
 
 	public static void registerItemRenderer()
