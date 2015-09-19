@@ -14,6 +14,9 @@ public class BlockManatech extends Block {
         this.setResistance(resistance); // resistance to explosives
         this.setHarvestLevel(harvestType, harvestLevel); // what can break/what material can break
         this.setLightLevel(lightLevel); // light emitted (e.g. glowstone)
+        
+        
     }
 
 }
+

@@ -1,5 +1,5 @@
 {
-    "parent": "manatech:block/manatech_ore",
+    "parent": "manatech:block/manastone_ore",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
