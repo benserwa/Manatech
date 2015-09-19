@@ -10,7 +10,6 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ModItems {
 	
 	public static Item manastone_ingot = new ItemManatech().setUnlocalizedName("manastone_ingot");
-	public static Item manastone_block = new ItemManatech().setUnlocalizedName("manastone_block");
 	
 	public static Item manastone_pickaxe = new ItemManatech().setUnlocalizedName("manastone_pickaxe");
 	public static Item manastone_axe = new ItemManatech().setUnlocalizedName("manastone_axe");

@@ -40,13 +40,13 @@ public class ModRecipes {
 				" y ", 
 				'x' , ModItems.manastone_ingot, 'y' , Items.stick);
 		
-		GameRegistry.addRecipe(new ItemStack(ModItems.manastone_block), 
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.manastone_block), 
 				"xxx", 
 				"xxx", 
 				"xxx", 
 				'x' , ModItems.manastone_ingot);
 		
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manastone_ingot, 9), new Object[] {ModItems.manastone_block, new ItemStack(ModItems.manastone_block, 1)});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manastone_ingot, 9), new Object[] {ModBlocks.manastone_block, new ItemStack(ModBlocks.manastone_block, 1)});
 	}
 	
 }
