@@ -8,5 +8,4 @@ public class ModItemPickaxe extends ItemPickaxe {
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
 	}
-	
 }
