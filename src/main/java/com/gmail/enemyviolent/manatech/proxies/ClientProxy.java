@@ -10,7 +10,6 @@ public class ClientProxy extends CommonProxy
 	{
 		ModBlocks.registerBlockRenderer();
 		ModItems.registerItemRenderer();
-		
 	}
 
 }

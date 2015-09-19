@@ -46,7 +46,7 @@ public class ModRecipes {
 				"xxx", 
 				'x' , ModItems.manastone_ingot);
 		
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manastone_ingot, 9), new Object[] {ModBlocks.manastone_block, new ItemStack(ModBlocks.manastone_block, 1)});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manastone_ingot, 9), new ItemStack(ModBlocks.manastone_block));
 	}
 	
 }
