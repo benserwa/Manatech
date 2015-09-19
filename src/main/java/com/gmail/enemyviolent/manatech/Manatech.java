@@ -1,9 +1,6 @@
 package com.gmail.enemyviolent.manatech;
 
 import com.gmail.enemyviolent.manatech.help.Reference;
-import com.gmail.enemyviolent.manatech.init.ModBlocks;
-import com.gmail.enemyviolent.manatech.init.ModItems;
-import com.gmail.enemyviolent.manatech.init.ModRecipes;
 import com.gmail.enemyviolent.manatech.init.ModWorldGen;
 import com.gmail.enemyviolent.manatech.proxies.CommonProxy;
 
@@ -29,15 +26,13 @@ public class Manatech {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent evt)
 	{
-		ModBlocks.registerBlocks();
-		ModItems.registerItems();
+		proxy.registerAll();
 	}
 
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent evt)
 	{
 		proxy.registerRenderers();
-		ModRecipes.registerRecipes();
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
 	}
 
