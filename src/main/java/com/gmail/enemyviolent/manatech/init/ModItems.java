@@ -12,12 +12,11 @@ public class ModItems {
 	public static void registerItems()
 	{
 		RegisterHelper.registerItem(manatechwrench);
-		RegisterHelper.registerItemRenderer(manatechwrench);
 	}
 
 	public static void registerItemRenderer()
 	{
-
+		RegisterHelper.registerItemRenderer(manatechwrench);
 	}
 
 }
