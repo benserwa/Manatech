@@ -46,6 +46,30 @@ public class ModRecipes {
 				"xxx", 
 				'x' , ModItems.manastone_ingot);
 		
+		GameRegistry.addRecipe(new ItemStack(ModItems.manastone_helmet), 
+				"   ", 
+				"xxx", 
+				"x x", 
+				'x' , ModItems.manastone_ingot);
+		
+		GameRegistry.addRecipe(new ItemStack(ModItems.manastone_chestplate), 
+				"x x", 
+				"xxx", 
+				"xxx", 
+				'x' , ModItems.manastone_ingot);
+		
+		GameRegistry.addRecipe(new ItemStack(ModItems.manastone_leggings), 
+				"xxx", 
+				"x x", 
+				"x x", 
+				'x' , ModItems.manastone_ingot);
+		
+		GameRegistry.addRecipe(new ItemStack(ModItems.manastone_boots), 
+				"   ", 
+				"x x", 
+				"x x", 
+				'x' , ModItems.manastone_ingot);
+		
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manastone_ingot, 9), new ItemStack(ModBlocks.manastone_block));
 	}
 	
